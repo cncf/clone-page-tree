@@ -8,11 +8,11 @@ Requires PHP: 5.6.20
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a "Clone Page Tree" action to the page row actions to duplicate an entire page hierarchy.
+👩‍👩‍👧‍👧-📄-🌲 Adds a "Clone Page Tree" action to the page row actions to duplicate an entire page hierarchy.
 
 == Description ==
 
-Adds a "Clone Page Tree" action to the page row actions.  Cloning a page tree clones the page and all descendents creating a new copy of the full hierarchy.  After clicking "Clone Page Tree" you will be redirected to edit the top-most page to allow you to give it a unique title.  All cloned pages are left in draft mode.
+👩‍👩‍👧‍👧-📄-🌲 Adds a "Clone Page Tree" action to the page row actions.  Cloning a page tree clones the page and all descendents creating a new copy of the full hierarchy.  After clicking "Clone Page Tree" you will be redirected to edit the top-most page to allow you to give it a unique title.  All cloned pages are left in draft mode.
 
 There are [many plugins out there](https://wordpress.org/plugins/search/duplicate/) which allow you to duplicate a post or page however this is the only one that allows you to duplicate a page and all its descendent pages in a single click.
 
