@@ -7,7 +7,7 @@
  * Plugin Name:       Clone Page Tree
  * Plugin URI:        https://github.com/cncf/clone-page-tree
  * Description:       Adds a "Clone Page Tree" action to the page row actions.  Cloning a page tree clones the page and all children creating a new copy of the full hierarchy.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            cjyabraham
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt

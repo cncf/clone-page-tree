@@ -2,7 +2,7 @@
 Contributors: cjyabraham
 Tags: clone, clone, page, tree
 Requires at least: 4.0
-Tested up to: 5.2.1
+Tested up to: 5.3.2
 Stable tag: trunk
 Requires PHP: 5.6.20
 License: GPLv2
@@ -30,6 +30,9 @@ The plugin has been developed for [CNCF](https://www.cncf.io/) and [The Linux Fo
 1. "Clone Page Tree" action.
 
 == Changelog ==
+
+= 0.1.1 =
+* Fixes issue with missing backslashes in a cloned page
 
 = 0.1.0 =
 * First release
