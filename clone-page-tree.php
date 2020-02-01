@@ -102,8 +102,7 @@ function cpt_deep_clone( $post_id, $new_parent_id ) {
 	);
 
 	// insert the post by wp_insert_post() function.
-	$new_post_id = wp_insert_post( $args );
-
+	$new_post_id = wp_insert_post( wp_slash( $args ) );
 
 	// get all current post terms ad set them to the new post draft.
 	$taxonomies = get_object_taxonomies( $post_in->post_type ); // returns array of taxonomy names for post type, ex array("category", "post_tag");.
