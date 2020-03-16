@@ -1,16 +1,16 @@
-=== Clone Page Tree ===
-Contributors: cjyabraham
-Tags: clone, clone, page, tree
-Requires at least: 4.0
-Tested up to: 5.3.2
-Stable tag: trunk
-Requires PHP: 5.6.20
-License: GPLv2
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Clone Page Tree #
+* Contributors: cjyabraham
+* Tags: clone, clone, page, tree
+* Requires at least: 4.0
+* Tested up to: 5.3.2
+* Stable tag: trunk
+* Requires PHP: 5.6.20
+* License: GPLv2
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 👩‍👩‍👧‍👧 📄 🌲 Adds a "Clone Page Tree" action to the page row actions to duplicate an entire page hierarchy.
 
-== Description ==
+## Description ##
 
 👩‍👩‍👧‍👧 📄 🌲 Adds a "Clone Page Tree" action to the page row actions.  Cloning a page tree clones the page and all descendents creating a new copy of the full hierarchy.  After clicking "Clone Page Tree" you will be redirected to edit the top-most page to allow you to give it a unique title.  All cloned pages are left in draft mode.
 
@@ -20,19 +20,19 @@ Code is stored in this [github repo](https://github.com/cncf/clone-page-tree).
 
 The plugin has been developed for [CNCF](https://www.cncf.io/) and [The Linux Foundation](https://www.linuxfoundation.org/).
 
-== Installation ==
+## Installation ##
 
 1. Upload the plugin files to the `/wp-content/plugins/clone-page-tree` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+2. Activate the plugin through the 'Plugins' screen in WordPress
 
-== Screenshots ==
+## Screenshots ##
 
-1. "Clone Page Tree" action.
+!["Clone Page Tree" action.](screenshot-1.jpg)
 
-== Changelog ==
+## Changelog ##
 
-= 0.1.1 =
-* Fixes issue with missing backslashes in a cloned page
+### 0.1.1 ###
+Fixes issue with missing backslashes in a cloned page
 
-= 0.1.0 =
-* First release
+### 0.1.0 ###
+First release
