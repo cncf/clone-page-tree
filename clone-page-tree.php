@@ -53,13 +53,16 @@ add_action( 'admin_action_cpt_clone_page_tree', 'cpt_clone_page_tree' );
  * @param object $post Post object.
  */
 function cpt_clone_page_link( $actions, $post ) {
-	if ( current_user_can( 'edit_posts' ) ) {
-		$actions['cpt_clone_page_tree'] = '<a href="' . wp_nonce_url( 'admin.php?action=cpt_clone_page_tree&post=' . $post->ID, basename( __FILE__ ), 'clone_page_tree_nonce' ) . '" title="Clone this page and all its child pages" rel="permalink">Clone Page Tree</a>';
-	}
-	return $actions;
-}
 
+	if ( ! current_user_can( 'edit_posts' ) ) {
+		return;
+	}
+
+	$actions['cpt_clone_page_tree'] = '<a href="' . wp_nonce_url( 'admin.php?action=cpt_clone_page_tree&post=' . $post->ID, basename( __FILE__ ), 'clone_page_tree_nonce' ) . '" title="Clone this page and all its child pages" rel="permalink">Clone Page Tree</a>';
+	  return $actions;
+}
 add_filter( 'page_row_actions', 'cpt_clone_page_link', 10, 2 );
+add_filter( 'post_row_actions', 'cpt_clone_page_link', 10, 2 );
 
 /**
  * The recursive function that traverses the children of a page and clones each of them
