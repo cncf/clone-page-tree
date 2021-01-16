@@ -7,7 +7,7 @@
  * Plugin Name:       Clone Page Tree
  * Plugin URI:        https://github.com/cncf/clone-page-tree
  * Description:       Adds a "Clone Page Tree" action to the page row actions.  Cloning a page tree clones the page and all children creating a new copy of the full hierarchy.
- * Version:           0.1.1
+ * Version:           0.1.2
  * Author:            cjyabraham
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -59,7 +59,7 @@ function cpt_clone_page_link( $actions, $post ) {
 	}
 
 	$actions['cpt_clone_page_tree'] = '<a href="' . wp_nonce_url( 'admin.php?action=cpt_clone_page_tree&post=' . $post->ID, basename( __FILE__ ), 'clone_page_tree_nonce' ) . '" title="Clone this page and all its child pages" rel="permalink">Clone Page Tree</a>';
-	  return $actions;
+	return $actions;
 }
 add_filter( 'page_row_actions', 'cpt_clone_page_link', 10, 2 );
 add_filter( 'post_row_actions', 'cpt_clone_page_link', 10, 2 );

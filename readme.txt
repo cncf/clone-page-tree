@@ -2,17 +2,17 @@
 Contributors: cjyabraham
 Tags: clone, clone, page, tree
 Requires at least: 4.0
-Tested up to: 5.3.2
+Tested up to: 5.6
 Stable tag: trunk
 Requires PHP: 5.6.20
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-👩‍👩‍👧‍👧 📄 🌲 Adds a "Clone Page Tree" action to the page row actions to duplicate an entire page hierarchy.
+👩‍👩‍👧‍👧 📄 🌲 Adds a "Clone Page Tree" action to the page row actions to duplicate an entire page hierarchy.  Also works for CPTs and posts.
 
 == Description ==
 
-👩‍👩‍👧‍👧 📄 🌲 Adds a "Clone Page Tree" action to the page row actions.  Cloning a page tree clones the page and all descendents creating a new copy of the full hierarchy.  After clicking "Clone Page Tree" you will be redirected to edit the top-most page to allow you to give it a unique title.  All cloned pages are left in draft mode.
+👩‍👩‍👧‍👧 📄 🌲 Adds a "Clone Page Tree" action to the page/post row actions.  Cloning a page tree clones the page and all descendents creating a new copy of the full hierarchy.  After clicking "Clone Page Tree" you will be redirected to edit the top-most page to allow you to give it a unique title.  All cloned pages are left in draft mode.
 
 There are [many plugins out there](https://wordpress.org/plugins/search/duplicate/) which allow you to duplicate a post or page however this is the only one that allows you to duplicate a page and all its descendent pages in a single click.
 
@@ -30,6 +30,9 @@ The plugin has been developed for [CNCF](https://www.cncf.io/) and [The Linux Fo
 1. "Clone Page Tree" action.
 
 == Changelog ==
+
+= 0.1.2 =
+* Enables action for all posts, pages, and CPTs
 
 = 0.1.1 =
 * Fixes issue with missing backslashes in a cloned page
